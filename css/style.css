@@ -1,0 +1,281 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+body {
+	background-color: #f0efef;
+}
+
+/*////////////////////////////////
+Header
+////////////////////////////////*/
+
+.title {
+	background-color: green;
+	margin: 0;
+	padding: 20px;
+}
+
+nav {
+	background-color: gray;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.navBar {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-right: 20px;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px 0 20px 0px;
+}
+
+h3 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+span {
+	padding-left: 50px;
+	font-size: 20px;
+}
+
+/*////////////////////////////////
+eboard
+////////////////////////////////*/
+
+.eboardName {
+	font-weight: bold;
+	text-align: center;
+}
+
+.eboardSum {
+	list-style: none;
+	text-align: center;
+}
+
+#president {
+	float: left;
+	width: 33%;
+}
+
+#vp {
+	float: left;
+	width: 33%;
+}
+
+#vpMem {
+	float: left;
+	width: 33%;
+}
+
+#secretary {
+	float: left;
+	width: 25%;
+}
+
+#treasurer {
+	float: left;
+	width: 25%;
+}
+
+#saa {
+	float: left;
+	width: 25%;
+}
+
+#vpRush {
+	float: left;
+	width: 25%;
+}
+
+.headshot {
+	height: 300px;
+	width: 200px;
+	/*padding-left: 150px;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+li a {
+	color: black;
+}
+
+/*////////////////////////////////
+Chairmen
+////////////////////////////////*/
+
+.chairs1 {
+	float: left;
+	width: 20%;
+}
+
+.chairs2 {
+	float: left;
+	width: 20%;
+}
+
+.chairs3 {
+	float: left;
+	width: 20%;
+}
+
+.chairs4 {
+	float: left;
+	width: 20%;
+}
+
+.chairs5 {
+	float: left;
+	width: 20%;
+}
+
+.chairSum li {
+	list-style: none;
+	text-align: center;
+}
+
+.headshotChair {
+	height: 300px;
+	width: 200px;
+	/*padding-left: 100px;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+/*////////////////////////////////
+Members
+////////////////////////////////*/
+
+.members1 {
+	float: left;
+	width: 20%;
+}
+
+.members2 {
+	float: left;
+	width: 20%;
+}
+
+.members3 {
+	float: left;
+	width: 20%;
+}
+
+.members4 {
+	float: left;
+	width: 20%;
+}
+
+.members5 {
+	float: left;
+	width: 20%;
+}
+
+.memSum li {
+	list-style: none;
+	text-align: center;
+}
+
+/*////////////////////////////////
+New Members
+////////////////////////////////*/
+
+.nm1 {
+	float: left;
+	width: 20%;
+}
+
+.nm2 {
+	float: left;
+	width: 20%;
+}
+
+.nm3 {
+	float: left;
+	width: 20%;
+}
+
+.nm4 {
+	float: left;
+	width: 20%;
+}
+
+.nm5 {
+	float: left;
+	width: 20%;
+}
+
+.nmSum {
+	list-style: none;
+	text-align: center;
+}
+
+/*////////////////////////////////
+ACB
+////////////////////////////////*/
+
+.acb1 {
+	float: left;
+	width: 20%;
+}
+
+.acb2 {
+	float: left;
+	width: 20%;
+}
+
+.acb3 {
+	float: left;
+	width: 20%;
+}
+
+.acb4 {
+	float: left;
+	width: 20%;
+}
+
+.acb5 {
+	float: left;
+	width: 20%;
+}
+
+.acbSum {
+	list-style: none;
+	text-align: center;
+}
+
+/*////////////////////////////////
+General Layout
+////////////////////////////////*/
+
+.break {
+	border-top: black solid 1px;
+}
+
+.hide {
+	display: none;
+}
+
+/*////////////////////////////////
+footer
+////////////////////////////////*/
+
+footer {
+	border-top: black solid 1px;
+}
