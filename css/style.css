@@ -63,6 +63,7 @@ eboard
 .eboardSum {
 	list-style: none;
 	text-align: center;
+	padding: 0;
 }
 
 #president {
@@ -105,13 +106,8 @@ eboard
 	width: 200px;
 	/*padding-left: 150px;*/
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	border-radius: 10px;
-}
-
-li a {
-	color: black;
 }
 
 /*////////////////////////////////
@@ -143,9 +139,10 @@ Chairmen
 	width: 20%;
 }
 
-.chairSum li {
+.chairSum {
 	list-style: none;
 	text-align: center;
+	padding: 0;
 }
 
 .headshotChair {
@@ -153,8 +150,7 @@ Chairmen
 	width: 200px;
 	/*padding-left: 100px;*/
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	border-radius: 10px;
 }
 
@@ -187,9 +183,10 @@ Members
 	width: 20%;
 }
 
-.memSum li {
+.memSum {
 	list-style: none;
 	text-align: center;
+	padding: 0;
 }
 
 /*////////////////////////////////
@@ -224,6 +221,7 @@ New Members
 .nmSum {
 	list-style: none;
 	text-align: center;
+	padding: 0;
 }
 
 /*////////////////////////////////
@@ -258,6 +256,7 @@ ACB
 .acbSum {
 	list-style: none;
 	text-align: center;
+	padding: 0;
 }
 
 /*////////////////////////////////
@@ -270,6 +269,10 @@ General Layout
 
 .hide {
 	display: none;
+}
+
+article p {
+	width: 50%;
 }
 
 /*////////////////////////////////
