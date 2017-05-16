@@ -7,33 +7,52 @@
   height: 0;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #f0efef;
 }
 
+img {
+	height: auto;
+}
 /*////////////////////////////////
 Header
 ////////////////////////////////*/
 
 .title {
-	background-color: green;
+	background-color: #009A31;
 	margin: 0;
 	padding: 20px;
 }
 
 nav {
-	background-color: gray;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	background-color: #84CF96;
+}
 
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+nav ul li:hover {
+	background-color: #C6E7CE;
 }
 
 .navBar {
 	text-decoration: none;
 	color: white;
 	font-size: 18px;
-	padding-right: 20px;
+	
 }
 
 h2 {
@@ -50,6 +69,91 @@ span {
 	padding-left: 50px;
 	font-size: 20px;
 }
+
+/*////////////////////////////////
+index layout
+////////////////////////////////*/
+
+.column1 {
+	float: left;
+	width: 75%;
+	border-right: black solid 1px ;
+	margin-top: 20px;
+}
+
+.column2 {
+	float: left;
+	width: 25%;
+}
+
+div section article img {
+	max-width: 100%;
+}
+
+article p {
+	text-align: center;
+}
+
+.summary {
+	margin: 20px 20px 0 0;
+}
+
+.summary p {
+	font-size: 20px;
+}
+
+.charter {
+	margin: 20px 20px 0 0;
+}
+
+.newPledgeClass {
+	margin: 20px 20px 0 0;
+}
+
+.lastPledgeClass {
+	margin: 20px 20px 0 0;
+}
+
+.column1 article img {
+	margin-top: 20px;
+
+}
+.fixed {
+	position: fixed;   
+    top: 20px;  
+    margin-left: 720px;
+    background-color: #0f0; }
+}
+
+.column2 a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+/*////////////////////////////////
+brother of the month
+////////////////////////////////*/
+
+.brotherSpot .clearfix {
+	margin-left: 20px;
+}
+
+.clearfix .bomPic {
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+
+.febbomText,.janbomText {
+	float: right;
+	width: 60%;
+	text-align: center;
+	padding-right: 20px;
+	margin-top: 30px;
+}
+
+
 
 /*////////////////////////////////
 eboard
@@ -260,6 +364,18 @@ ACB
 }
 
 /*////////////////////////////////
+FAQs Layout
+////////////////////////////////*/
+.faq {
+	float: left;
+	width: 60%;
+}
+
+.form {
+	float: left;
+	width: 40%;
+}
+/*////////////////////////////////
 General Layout
 ////////////////////////////////*/
 
@@ -271,9 +387,7 @@ General Layout
 	display: none;
 }
 
-article p {
-	width: 50%;
-}
+
 
 /*////////////////////////////////
 footer
@@ -281,4 +395,13 @@ footer
 
 footer {
 	border-top: black solid 1px;
+	padding-top: 20px;
+	background-color: #ccc;
+	margin-bottom: 0;
+}
+
+.socialMedia img {
+	height: 40px;
+	width: 40px;
+	padding: 0 5px;
 }
