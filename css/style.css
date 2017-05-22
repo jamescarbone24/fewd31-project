@@ -12,47 +12,95 @@
 }
 
 body {
-	background-color: #f0efef;
+	background-color: #228B22;
 }
 
 img {
 	height: auto;
 }
+
 /*////////////////////////////////
 Header
 ////////////////////////////////*/
 
+.head {
+	background-color: #151;
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+}
+
+.headpic {
+	background-image: url('../images/dsphiseal.png');
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	height: 125px;
+	width: 125px;
+
+}
+
 .title {
-	background-color: #009A31;
 	margin: 0;
-	padding: 20px;
+}
+
+.subtitle {
+	margin: 0;
 }
 
 nav {
-	background-color: #84CF96;
+	background-color: #151;
 }
 
-nav ul {
+.menu {
 	padding: 0;
 	margin: 0;
 }
 
-nav ul li {
+.menu .menu-item {
 	float: left;
 	width: 16.66%;
 	text-align: center;
 	padding: 10px 0;
+	position: relative;
+	border: black 1px solid;
 }
 
-nav ul li:hover {
-	background-color: #C6E7CE;
+nav .menu .menu-item:hover {
+	background-color: #ccc;
 }
 
-.navBar {
+nav .menu .menu-item:hover .subMenu {
+	display: block;
+}
+
+.navLink {
 	text-decoration: none;
 	color: white;
-	font-size: 18px;
-	
+	font-size: 18px;	
+}
+
+.subMenu{
+	padding: 0;
+	display: none;
+	position: absolute;
+	background-color: #ccc;
+	top: 25px;
+	left: 6px;
+	padding: 0 20px;
+}
+
+.subLink {
+	text-decoration: none;
+	color: white;
+}
+
+.subMenu li {
+	padding: 2px;
+}
+
+.subMenu li:hover {
+	background-color: #C6E7CE;
 }
 
 h2 {
@@ -125,14 +173,19 @@ article p {
     background-color: #0f0; }
 }
 
+.column2 p {
+	text-align: center;
+	padding: 10px;
+}
+
 .column2 a {
 	text-decoration: none;
-	text-align: center;
-	font-size: 20px;
+	padding-left: 120px;
+	color: black;
 }
 
 /*////////////////////////////////
-brother of the month
+brother of the month layout
 ////////////////////////////////*/
 
 .brotherSpot .clearfix {
@@ -141,18 +194,57 @@ brother of the month
 
 .clearfix .bomPic {
 	float: left;
-	width: 30%;
+	max-width: 30%;
 	padding: 20px;
 }
 
-.febbomText,.janbomText {
+.febbomText,.janbomText,.marbomText {
 	float: right;
-	width: 60%;
+	max-width: 60%;
 	text-align: center;
 	padding-right: 20px;
 	margin-top: 30px;
 }
 
+/*////////////////////////////////
+events
+////////////////////////////////*/
+.event img {
+	padding-left: 20px;
+	margin: auto;
+
+}
+
+.event p {
+	width: 60%;
+	margin: auto;
+}
+
+.event h3 {
+	text-align: center;
+	margin: auto;
+}
+/*////////////////////////////////
+causes
+////////////////////////////////*/
+.causes{
+	padding-left: 20px;
+	margin: auto;
+	float: left;
+	width: 30%;
+	padding-bottom: 10px;
+}
+
+.causesText {
+	width: 60%;
+	padding-left: 20px;
+	float: left;
+}
+
+.hra img {
+	padding-left: 20px;
+	margin: auto;
+}
 
 
 /*////////////////////////////////
@@ -328,6 +420,10 @@ New Members
 	padding: 0;
 }
 
+.tba {
+	text-align: center;
+}
+
 /*////////////////////////////////
 ACB
 ////////////////////////////////*/
@@ -375,6 +471,35 @@ FAQs Layout
 	float: left;
 	width: 40%;
 }
+
+#output {
+	position: absolute;
+	text-align: center;
+	color: #ff0000;
+	background-color: rgba(0, 0, 0, .7);
+	top: 500px;
+	width: 60%;
+	margin-left: 200px;
+}
+
+#output a {
+	text-decoration: none;
+	color: white;
+}
+
+.faq h2 {
+	margin-bottom: 0;
+}
+
+.faq h5 {
+	padding-left: 20px;
+	margin: 0;
+}
+
+.faq p {
+	padding-left: 10px;
+}
+
 /*////////////////////////////////
 General Layout
 ////////////////////////////////*/
@@ -387,6 +512,34 @@ General Layout
 	display: none;
 }
 
+.container {
+	max-width: 1150px;
+	margin: auto;
+	background-color: #f0efef;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 20px;
+}
+
+.top-a {
+	text-decoration: none;
+	color: black;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.container h1 {
+	padding-left: 20px;
+}
+
+article >> p {
+	max-width: 60%;
+	margin: auto;
+}
 
 
 /*////////////////////////////////
@@ -396,7 +549,7 @@ footer
 footer {
 	border-top: black solid 1px;
 	padding-top: 20px;
-	background-color: #ccc;
+	background-color: #A9A;
 	margin-bottom: 0;
 }
 
